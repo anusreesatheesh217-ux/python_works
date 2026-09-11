@@ -45,3 +45,23 @@ Enjoy your learning journey.
 '''
 
 print(message)
+
+
+#Dynamic inference - based on the assigned value to a variable data type identified dynamically
+height=5.11
+print(type(height))#float
+weight=99
+print(type(weight))#int
+
+#Dynamically typed (Duck type): If a variable is created with a specific data type, can be changed later
+weight=99
+print(type(weight))#int
+weight=weight+.350#float
+print(type(weight))#float (dynamically changing the type from int to float)
+
+
+#Strongly typed: Python allow us to operate between the variables of same datatype (of the same hierarchy) and doesn't allow to operate between different datatypes.
+name='irfan'
+weight=99
+#print(name+weight)#this will not work, because strongly typed
+
